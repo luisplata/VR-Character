@@ -4,19 +4,19 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class DebugAdapter : MonoBehaviour
+public class DebugAdapter : MonoBehaviour, IDebug
 {
     [SerializeField] private TextMeshProUGUI textUi;
     private Queue<string> log;
 
     private void Awake()
     {
-        ServiceLocator.Instance.RegisterService<DebugAdapter>(this);
         log = new Queue<string>(5);
     }
 
     public void Log(string text)
     {
+        Debug.Log(text);
         log.Enqueue(text);
         if (log.Count > 5)
         {

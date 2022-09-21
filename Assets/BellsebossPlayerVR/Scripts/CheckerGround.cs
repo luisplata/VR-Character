@@ -16,6 +16,7 @@ public class CheckerGround : MonoBehaviour
         }
         else
         {
+            ServiceLocator.Instance.GetService<IDebugMediator>().LogL("touch floor");
             _isGrounded = false;
         }
     }

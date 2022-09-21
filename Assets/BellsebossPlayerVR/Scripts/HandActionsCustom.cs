@@ -50,7 +50,12 @@ public class HandActionsCustom : BellsebossHand
     //catch
     private bool _catchPress = false;
     private float _catchLine = 0f;
+    private IBodyAction _body;
 
+    public void Configurate(IBodyAction body)
+    {
+        _body = body;
+    }
 
     //End private vars
     private void Start()
@@ -81,7 +86,6 @@ public class HandActionsCustom : BellsebossHand
         };
         triggerLine.Line += f =>
         {
-            ServiceLocator.Instance.GetService<DebugAdapter>().Log(">>>>>Trigger");
             _triggerLine = f;
         };
         gridTouch.IsTouch += b =>
@@ -169,6 +173,11 @@ public class HandActionsCustom : BellsebossHand
     public float TriggerValue()
     {
         return _triggerLine;
+    }
+
+    public IBodyAction GetBody()
+    {
+        return _body;
     }
 }
 
