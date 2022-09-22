@@ -7,25 +7,24 @@ public class DebugMediator : MonoBehaviour, IDebugMediator
 
     private void Start()
     {
-        ServiceLocator.Instance.RegisterService<IDebugMediator>(this);
-        debugLeft.gameObject.SetActive(false);
-        debugRight.gameObject.SetActive(false);
+        debugLeft.DisableLog();
+        debugRight.DisableLog();
     }
 
     public void LogL(string message)
     {
-        if (!debugLeft.gameObject.activeSelf)
+        if (!debugLeft.IsEnable())
         {
-            debugLeft.gameObject.SetActive(true);
+            debugLeft.EnableLog();
         }
         debugLeft.Log(message);
     }
     
     public void LogR(string message)
     {
-        if (!debugRight.gameObject.activeSelf)
+        if (!debugRight.IsEnable())
         {
-            debugRight.gameObject.SetActive(true);
+            debugRight.EnableLog();
         }
         debugRight.Log(message);
     }

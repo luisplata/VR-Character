@@ -14,6 +14,7 @@ public class ReadVector2 : ActionControlCustom
 
     private void UpdateHandle(InputAction.CallbackContext ctx)
     {
+        ServiceLocator.Instance.GetService<IDebugMediator>().LogR($"vector {ctx.ReadValue<Vector2>()}");
         Vector?.Invoke(ctx.ReadValue<Vector2>());
     }
 }

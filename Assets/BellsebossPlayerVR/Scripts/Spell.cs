@@ -1,29 +1,34 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Spell : MonoBehaviour
 {
     [SerializeField] private float timeToMovementVarita;
+    [SerializeField] private string nameOfSpell;
     [SerializeField] private LineRenderer line;
     private float _deltaTimeLocal = 100;
     private bool _isMoveVarita;
-    public LineRenderer Line => line;
-    public bool isMoveVaritaToSpell => _isMoveVarita;
+    private bool _isFinishedMovement = true;
+    private Transform _firstPoint;
+    private LineRenderer Line => line;
+    public bool IsMoveVaritaToSpell => _isMoveVarita;
 
     private void Start()
     {
         line.positionCount = 0;
     }
 
-    public void StartMovement()
+    public void StartMovement(Transform firstPoint)
     {
         _isMoveVarita = true;
         _isFinishedMovement = false;
         _deltaTimeLocal = 0;
+        Line.positionCount = 0;
+        _firstPoint = firstPoint;
     }
 
-    private bool _isFinishedMovement = true;
     public void FinishedMovement()
     {
         if (_isFinishedMovement) return;
@@ -32,15 +37,18 @@ public class Spell : MonoBehaviour
         var listOfPoints = new List<Vector3>();
         for (int i = 0; i < line.positionCount; i++)
         {
-            listOfPoints.Add(line.GetPosition(i));
+            listOfPoints.Add(_firstPoint.InverseTransformPoint(line.GetPosition(i)));
         }
-        Debug.Log($"position \n{listOfPoints.ToString()}");
+
+        var result = $"{listOfPoints.Count} points";
+        ServiceLocator.Instance.GetService<IFileManager>().SaveSpell(nameOfSpell, listOfPoints);
+        ServiceLocator.Instance.GetService<IDebugMediator>().LogR(result);
     }
 
     public void AddDeltaTime(Vector3 positionVarita)
     {
         if(!_isMoveVarita) return;
-        //_deltaTimeLocal += Time.deltaTime;
+        _deltaTimeLocal += Time.deltaTime;
         if (_deltaTimeLocal >= timeToMovementVarita)
         {
             return;

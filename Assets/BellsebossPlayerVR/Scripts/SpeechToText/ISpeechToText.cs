@@ -7,4 +7,5 @@ public interface ISpeechToText
     void StopRecording(bool autoPlay = false);
     bool IsAvailableRequest();
     string Result { get; }
+    void StartRecording();
 }

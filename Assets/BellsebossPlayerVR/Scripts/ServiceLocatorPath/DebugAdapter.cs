@@ -7,7 +7,21 @@ using UnityEngine;
 public class DebugAdapter : MonoBehaviour, IDebug
 {
     [SerializeField] private TextMeshProUGUI textUi;
+    [SerializeField] private GameObject father;
     private Queue<string> log;
+    private bool _isEnable;
+
+    public void DisableLog()
+    {
+        _isEnable = false;
+        father.SetActive(_isEnable);
+    }
+
+    public void EnableLog()
+    {
+        _isEnable = true;
+        father.SetActive(_isEnable);
+    }
 
     private void Awake()
     {
@@ -29,5 +43,10 @@ public class DebugAdapter : MonoBehaviour, IDebug
         {
             textUi.text += $"{l}\n";
         }
+    }
+
+    public bool IsEnable()
+    {
+        return _isEnable;
     }
 }

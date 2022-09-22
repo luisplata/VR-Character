@@ -45,6 +45,7 @@ public class CatchObjects : MonoBehaviour
             objectCatch.transform.SetParent(referentToParent.transform);
             objectCatch.transform.localPosition = Vector3.zero;
             objectCatch.transform.localRotation = Quaternion.identity;
+            //objectCatch.transform.localRotation = referentToParent.transform.localRotation;
             _cachingInHand = true;
             ServiceLocator.Instance.GetService<IDebugMediator>().LogL($"Catch object");
         }
