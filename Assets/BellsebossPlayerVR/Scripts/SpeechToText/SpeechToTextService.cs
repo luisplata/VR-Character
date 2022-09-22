@@ -57,7 +57,7 @@ public class SpeechToTextService : MonoBehaviour, ISpeechToText
         _stopRecord = true;
 	    Stop();
         _filepath = saveAudio.Save("s", _clip);
-        var key = "";//send into params for delegate
+        var key = "AIzaSyCUgzSbdyKh3710s3WbWmI8WbQxn8n0Pa8";//send into params for delegate
         var audioBuffer = convertAudio.ConvertAudioToBase64(_filepath + ".wav");
         await consumerApiGoogle.SpeechToText(key, audioBuffer);
 	    if (autoPlay)

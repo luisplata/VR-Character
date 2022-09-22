@@ -10,7 +10,8 @@ public class MovePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var gravity = cheker.IsGrounded ? Vector3.down/8 : Vector3.down/2;
+        //var gravity = cheker.IsGrounded ? Vector3.down/8 : Vector3.down/2;
+        var gravity = Vector3.down;
         var _direction = leftHand.GetStick();
         var transformDirection = transform.TransformDirection(new Vector3(_direction.x, 0, _direction.y) + gravity) * (Time.deltaTime * speed);
         rb.velocity = transformDirection;
