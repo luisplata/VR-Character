@@ -1,35 +1,51 @@
+using System;
 using UnityEngine;
 
 public class Wizard : MonoBehaviour
 {
     [SerializeField] private Varita varita;
     [SerializeField] private Spell hechizo;
+    [SerializeField] private Transform zeroAbsolute;
 
     private float _deltaTimeMoving;
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         if (!varita.CanToUse) return;
-        if (varita.Hand.GetBody().GetOtherHand(varita.Hand).TriggerPress() || varita.Hand.TriggerPress())
+        if (!varita.Hand.GetBody().GetOtherHand(varita.Hand).TriggerTouch() && !varita.Hand.TriggerTouch()) return;
+        if (varita.Hand.TriggerPress())
         {
-            if (varita.Hand.TriggerPress())
+            if (!hechizo.IsMoveVaritaToSpell)
             {
-                if (!hechizo.isMoveVaritaToSpell)
-                {
-                    hechizo.StartMovement();   
-                }
-                hechizo.AddDeltaTime(varita.PointInSpace.transform.position);
+                zeroAbsolute.position = varita.PointInSpace.transform.position;
+                zeroAbsolute.rotation = varita.PointInSpace.transform.rotation;
+                hechizo.StartMovement(zeroAbsolute);   
             }
-            else
-            {
-                hechizo.FinishedMovement();
-            }
+            hechizo.AddDeltaTime(varita.PointInSpace.transform.position);
+        }
+        else
+        {
+            hechizo.FinishedMovement();
+        }
 
+        try
+        {
+            return;
             if (varita.Hand.GetBody().GetOtherHand(varita.Hand).TriggerPress())
             {
-
+                //ServiceLocator.Instance.GetService<IDebugMediator>().LogR($"Caster");
+                ServiceLocator.Instance.GetService<ISpeechToText>().StartRecording();
             }
+            else if(!varita.Hand.GetBody().GetOtherHand(varita.Hand).TriggerTouch())
+            {
+                ServiceLocator.Instance.GetService<ISpeechToText>().StopRecording(true);
+                //ServiceLocator.Instance.GetService<IDebugMediator>().LogR($"Finish");
+            }
+        }
+        catch (Exception e)
+        {
+            // ignored
         }
     }
 }

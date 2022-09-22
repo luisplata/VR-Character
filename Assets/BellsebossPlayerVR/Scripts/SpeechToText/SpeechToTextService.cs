@@ -26,6 +26,11 @@ public class SpeechToTextService : MonoBehaviour, ISpeechToText
         }
     }
 
+    public void StartRecording()
+    {
+        SetDeviceToGetRecorder(GetDeviceToCanRecorder()[0]);
+    }
+
     private void Start()
     {
 	    saveAudio = new SaveAudioWithSaveWav(this);
