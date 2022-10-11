@@ -21,6 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Hierarchy
 =======
   m_Title: Inspector
@@ -28,6 +29,9 @@ MonoBehaviour:
 =======
   m_Title: Console
 >>>>>>> fa21af4 (update project)
+=======
+  m_Title: Console
+>>>>>>> 3cf47fa (update project)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -129,6 +133,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 102
 =======
   controlID: 58
@@ -136,6 +141,9 @@ MonoBehaviour:
 =======
   controlID: 69
 >>>>>>> fa21af4 (update project)
+=======
+  controlID: 69
+>>>>>>> 3cf47fa (update project)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,6 +165,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 972
 =======
     width: 781
@@ -164,10 +173,14 @@ MonoBehaviour:
 =======
     width: 932
 >>>>>>> fa21af4 (update project)
+=======
+    width: 932
+>>>>>>> 3cf47fa (update project)
     height: 675
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 103
@@ -177,6 +190,9 @@ MonoBehaviour:
 =======
   controlID: 70
 >>>>>>> fa21af4 (update project)
+=======
+  controlID: 70
+>>>>>>> 3cf47fa (update project)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,6 +214,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 972
 =======
     width: 781
@@ -205,10 +222,14 @@ MonoBehaviour:
 =======
     width: 932
 >>>>>>> fa21af4 (update project)
+=======
+    width: 932
+>>>>>>> 3cf47fa (update project)
     height: 459
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 104
@@ -218,6 +239,9 @@ MonoBehaviour:
 =======
   controlID: 62
 >>>>>>> fa21af4 (update project)
+=======
+  controlID: 62
+>>>>>>> 3cf47fa (update project)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,6 +261,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 279
 =======
     width: 225
@@ -244,6 +269,9 @@ MonoBehaviour:
 =======
     width: 270
 >>>>>>> fa21af4 (update project)
+=======
+    width: 270
+>>>>>>> 3cf47fa (update project)
     height: 459
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -270,6 +298,7 @@ MonoBehaviour:
     x: 270
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 693
 =======
     x: 225
@@ -279,6 +308,9 @@ MonoBehaviour:
 =======
     width: 662
 >>>>>>> fa21af4 (update project)
+=======
+    width: 662
+>>>>>>> 3cf47fa (update project)
     height: 459
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -310,6 +342,7 @@ MonoBehaviour:
     y: 459
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 972
 =======
     width: 781
@@ -317,10 +350,14 @@ MonoBehaviour:
 =======
     width: 932
 >>>>>>> fa21af4 (update project)
+=======
+    width: 932
+>>>>>>> 3cf47fa (update project)
     height: 216
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 65
@@ -330,6 +367,9 @@ MonoBehaviour:
 =======
   controlID: 71
 >>>>>>> fa21af4 (update project)
+=======
+  controlID: 71
+>>>>>>> 3cf47fa (update project)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,6 +389,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 306
 =======
     width: 246
@@ -356,6 +397,9 @@ MonoBehaviour:
 =======
     width: 345
 >>>>>>> fa21af4 (update project)
+=======
+    width: 345
+>>>>>>> 3cf47fa (update project)
     height: 216
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -382,6 +426,7 @@ MonoBehaviour:
     x: 345
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 666
 =======
     x: 246
@@ -391,6 +436,9 @@ MonoBehaviour:
 =======
     width: 587
 >>>>>>> fa21af4 (update project)
+=======
+    width: 587
+>>>>>>> 3cf47fa (update project)
     height: 216
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -417,6 +465,7 @@ MonoBehaviour:
     x: 932
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 331
 =======
     x: 781
@@ -426,6 +475,9 @@ MonoBehaviour:
 =======
     width: 371
 >>>>>>> fa21af4 (update project)
+=======
+    width: 371
+>>>>>>> 3cf47fa (update project)
     height: 675
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -458,6 +510,7 @@ MonoBehaviour:
     x: 333
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 691
 =======
     x: 288
@@ -467,6 +520,9 @@ MonoBehaviour:
 =======
     width: 660
 >>>>>>> fa21af4 (update project)
+=======
+    width: 660
+>>>>>>> 3cf47fa (update project)
     height: 438
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -672,6 +728,7 @@ MonoBehaviour:
     m_Target: {x: 0.65035224, y: 1.5236428, z: 0.9718489}
     speed: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Value: {x: 0.17510065, y: 1.8659126, z: -1.3340433}
 =======
     m_Target: {x: 0.663, y: 2.72, z: 0}
@@ -681,6 +738,9 @@ MonoBehaviour:
 =======
     m_Value: {x: 0.65035224, y: 1.5236428, z: 0.9718489}
 >>>>>>> fa21af4 (update project)
+=======
+    m_Value: {x: 0.65035224, y: 1.5236428, z: 0.9718489}
+>>>>>>> 3cf47fa (update project)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -734,6 +794,7 @@ MonoBehaviour:
     m_Target: 0.8660254
     speed: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Value: 1.086278
 =======
     m_Target: {x: -0.017275475, y: -0.1226713, z: 0.0021356482, w: -0.9922959}
@@ -747,6 +808,9 @@ MonoBehaviour:
 =======
     m_Value: 0.8660254
 >>>>>>> fa21af4 (update project)
+=======
+    m_Value: 0.8660254
+>>>>>>> 3cf47fa (update project)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -797,6 +861,7 @@ MonoBehaviour:
     y: 73
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 278
 =======
     width: 224
@@ -804,6 +869,9 @@ MonoBehaviour:
 =======
     width: 269
 >>>>>>> fa21af4 (update project)
+=======
+    width: 269
+>>>>>>> 3cf47fa (update project)
     height: 438
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -816,6 +884,7 @@ MonoBehaviour:
       m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: f09efeffac9ffeff66a8feffeab4feffa6b5feff60befeffb6c4feff6ec5feff7ed0feff70ebfeff28ecfeff36f7feffb6fffeff7200ffff820bfffff614ffffb215ffff6e1effffda22ffff9623ffffa42effffb43dffff6c3effff7c49ffff868bffff3e8cffff2c97ffff5ea5ffffa6a5ffff52a6ffff58a6ffff68b1ffffecb9fffffcc2ffffb4c3ffff66ceffffccf3fffff0f3ffff2afbffffa4d4000004d50000b6d80000bad8000010db000082db000030310100bc320100283401009634010038350100f23601007a6b0100d66d0100c0a201001ca501008ea5010040be01006ad201000cd30100c0d4010032d50100
 =======
       m_ExpandedIDs: 807cffff387dffffd885ffff7a87ffff3288ffffd290ffffea99ffffa69affff58a5ffff80c3ffff38c4ffffd8ccffffccd7ffff84d8ffff58e3ffff2afbffff16bf000044bf0000
@@ -823,6 +892,9 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: aa2cfdff622dfdffe636fdff023afdffbe3afdff9c46fdff7c4cfdff344dfdffb856fdff2673fdff047afdffbc7afdff4084fdff8088fdff3889fdffbc92fdff1e50feffd650feffb25cfeff3667feffee67feff7071feff587cfeff107dfeffea88feffda9cfeff949dfeff1aa7feff98c7feff50c8feff2ad4feff6adcfeff22ddfeffa4e6feffa8e9feff60eafeffe2f3feff52fcfeff0afdfeff8c06ffff400afffffc0affff7e14ffff4631fffffe31ffff7c3bffff7c54ffff3455ffff1261ffff6471ffff1c72fffff47dffff90bcffff48bdffff5cc8ffff48f3ffffd0f3ffffe0f3ffff2afbffff487400000ea700004ca9000060ab00008eab0000d6ac00004cad0000a0ae000064af000050e300006ae50000ece7000032fa000084fa000094fd00005cfe000088fe000076000100f8020100e0190100cc4c0100fa4c0100e84e010002670100c47801001e7c01000c7e01008e800100d48e0100fe9201002c9301001a9501004cac01007aac010068ae0100eab0010030bf010078bf010082bf01002ec0010070c001005ac3010088c3010076c50100f8c701008edd010056ed01003eee0100a8ee010080f20100aef201009cf4010028f60100d6360200c8380200de490200b64d0200e44d0200d64f02006251020058520200
 >>>>>>> fa21af4 (update project)
+=======
+      m_ExpandedIDs: aa2cfdff622dfdffe636fdff023afdffbe3afdff9c46fdff7c4cfdff344dfdffb856fdff2673fdff047afdffbc7afdff4084fdff8088fdff3889fdffbc92fdff1e50feffd650feffb25cfeff3667feffee67feff7071feff587cfeff107dfeffea88feffda9cfeff949dfeff1aa7feff98c7feff50c8feff2ad4feff6adcfeff22ddfeffa4e6feffa8e9feff60eafeffe2f3feff52fcfeff0afdfeff8c06ffff400afffffc0affff7e14ffff4631fffffe31ffff7c3bffff7c54ffff3455ffff1261ffff6471ffff1c72fffff47dffff90bcffff48bdffff5cc8ffff48f3ffffd0f3ffffe0f3ffff2afbffff487400000ea700004ca9000060ab00008eab0000d6ac00004cad0000a0ae000064af000050e300006ae50000ece7000032fa000084fa000094fd00005cfe000088fe000076000100f8020100e0190100cc4c0100fa4c0100e84e010002670100c47801001e7c01000c7e01008e800100d48e0100fe9201002c9301001a9501004cac01007aac010068ae0100eab0010030bf010078bf010082bf01002ec0010070c001005ac3010088c3010076c50100f8c701008edd010056ed01003eee0100a8ee010080f20100aef201009cf4010028f60100d6360200c8380200de490200b64d0200e44d0200d64f02006251020058520200
+>>>>>>> 3cf47fa (update project)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: PointToReference
@@ -870,6 +942,7 @@ MonoBehaviour:
     x: 317
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 691
 =======
     x: 288
@@ -879,6 +952,9 @@ MonoBehaviour:
 =======
     width: 629
 >>>>>>> fa21af4 (update project)
+=======
+    width: 629
+>>>>>>> 3cf47fa (update project)
     height: 438
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -892,6 +968,7 @@ MonoBehaviour:
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 691, y: 389}
 =======
   m_TargetSize: {x: 554, y: 417}
@@ -899,6 +976,9 @@ MonoBehaviour:
 =======
   m_TargetSize: {x: 2560, y: 1440}
 >>>>>>> fa21af4 (update project)
+=======
+  m_TargetSize: {x: 2560, y: 1440}
+>>>>>>> 3cf47fa (update project)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -915,6 +995,7 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -345.5
     m_HBaseRangeMax: 345.5
     m_VBaseRangeMin: -194.5
@@ -926,11 +1007,16 @@ MonoBehaviour:
     m_VBaseRangeMax: 208.5
 >>>>>>> d96be96 (update proyect; insteled in oculus but the hands dont saw)
 =======
+=======
+>>>>>>> 3cf47fa (update project)
     m_HBaseRangeMin: -1280
     m_HBaseRangeMax: 1280
     m_VBaseRangeMin: -720
     m_VBaseRangeMax: 720
+<<<<<<< HEAD
 >>>>>>> fa21af4 (update project)
+=======
+>>>>>>> 3cf47fa (update project)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -951,6 +1037,7 @@ MonoBehaviour:
       width: 629
       height: 417
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 345.5, y: 208.5}
 =======
@@ -963,6 +1050,10 @@ MonoBehaviour:
     m_Scale: {x: 0.24570313, y: 0.24570313}
     m_Translation: {x: 314.5, y: 208.5}
 >>>>>>> fa21af4 (update project)
+=======
+    m_Scale: {x: 0.24570313, y: 0.24570313}
+    m_Translation: {x: 314.5, y: 208.5}
+>>>>>>> 3cf47fa (update project)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -974,6 +1065,7 @@ MonoBehaviour:
       width: 2560
       height: 1697.17
     m_MinimalGUI: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 691, y: 438}
@@ -990,6 +1082,10 @@ MonoBehaviour:
   m_defaultScale: 0.24570313
   m_LastWindowPixelSize: {x: 629, y: 438}
 >>>>>>> fa21af4 (update project)
+=======
+  m_defaultScale: 0.24570313
+  m_LastWindowPixelSize: {x: 629, y: 438}
+>>>>>>> 3cf47fa (update project)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000100000100
@@ -1049,6 +1145,7 @@ MonoBehaviour:
     y: 532
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 305
 =======
     width: 245
@@ -1056,6 +1153,9 @@ MonoBehaviour:
 =======
     width: 344
 >>>>>>> fa21af4 (update project)
+=======
+    width: 344
+>>>>>>> 3cf47fa (update project)
     height: 195
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1090,6 +1190,7 @@ MonoBehaviour:
     m_LastClickedID: 42532
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000d8710000747e0000767e0000787e00007a7e00007c7e00007e7e0000807e0000827e0000847e0000867e0000887e00008a7e00008c7e00008e7e0000907e0000927e0000947e0000967e0000987e00009a7e00009c7e00009e7e0000a07e0000a27e0000a47e0000a67e0000a87e0000
 =======
     m_ExpandedIDs: 00000000747e0000767e0000787e00007a7e00007c7e00007e7e0000807e0000827e0000847e0000867e0000887e00008a7e00008c7e00008e7e0000907e0000927e0000947e0000967e0000987e00009a7e00009c7e00009e7e0000a07e0000a27e0000a47e0000a67e0000a87e0000
@@ -1097,6 +1198,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000068750000d4810000d6810000d8810000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000f0810000f2810000f4810000f6810000f8810000fa810000fc810000fe81000000820000028200000482000006820000088200000a8200000c8200000e82000010820000128200001482000016820000
 >>>>>>> fa21af4 (update project)
+=======
+    m_ExpandedIDs: 0000000068750000d4810000d6810000d8810000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000f0810000f2810000f4810000f6810000f8810000fa810000fc810000fe81000000820000028200000482000006820000088200000a8200000c8200000e82000010820000128200001482000016820000
+>>>>>>> 3cf47fa (update project)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1125,6 +1229,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000747e0000767e0000787e00007a7e00007c7e00007e7e0000807e0000827e0000847e0000867e0000887e00008a7e00008c7e00008e7e0000907e0000927e0000947e0000967e0000987e00009a7e00009c7e00009e7e0000a07e0000a27e0000a67e0000a87e000034b500003ab500003eb5000050b5000038b900003ab900003cb900004eb9000050b90000ffffff7f
 =======
     scrollPos: {x: 0, y: 212}
@@ -1135,6 +1240,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: ffffffff0000000068750000d4810000d6810000d8810000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000f0810000f2810000f4810000f6810000f8810000fa810000fc810000fe810000008200000282000006820000088200000a8200000c8200000e820000108200001282000014820000168200002cb1000032b1000038b10000
 >>>>>>> fa21af4 (update project)
+=======
+    m_ExpandedIDs: ffffffff0000000068750000d4810000d6810000d8810000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000f0810000f2810000f4810000f6810000f8810000fa810000fc810000fe810000008200000282000006820000088200000a8200000c8200000e820000108200001282000014820000168200002cb1000032b1000038b10000
+>>>>>>> 3cf47fa (update project)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: XRI Default Input Actions
@@ -1214,6 +1322,7 @@ MonoBehaviour:
     x: 408
     y: 532
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 664
 =======
     x: 309
@@ -1223,6 +1332,9 @@ MonoBehaviour:
 =======
     width: 585
 >>>>>>> fa21af4 (update project)
+=======
+    width: 585
+>>>>>>> 3cf47fa (update project)
     height: 195
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1252,6 +1364,7 @@ MonoBehaviour:
     x: 995
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 330
 =======
     x: 844
@@ -1261,6 +1374,9 @@ MonoBehaviour:
 =======
     width: 370
 >>>>>>> fa21af4 (update project)
+=======
+    width: 370
+>>>>>>> 3cf47fa (update project)
     height: 654
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
