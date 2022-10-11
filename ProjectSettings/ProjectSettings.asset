@@ -175,6 +175,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+<<<<<<< HEAD
   - {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
   - {fileID: -8196854396901781169, guid: 1a4c68ca72a83449f938d669337cb305, type: 2}
   - {fileID: 9091705481893352068, guid: a9a6963505ddf7f4d886008c6dc86122, type: 2}
@@ -184,6 +185,11 @@ PlayerSettings:
   - {fileID: -8796821284970028261, guid: 1a4c68ca72a83449f938d669337cb305, type: 2}
   - {fileID: 0}
 >>>>>>> d96be96 (update proyect; insteled in oculus but the hands dont saw)
+=======
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+>>>>>>> fa21af4 (update project)
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
